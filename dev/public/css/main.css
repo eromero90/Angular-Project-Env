@@ -1,0 +1,11 @@
+/* line 1, /Users/edisonromero/Documents/My Projects/Angular Project Env/dev/_sass/layout/_home.scss */
+h1 {
+  color: red; }
+
+/* line 1, ./dev/_scripts/shared/_button.scss */
+input[type="button"] {
+  border: 1px solid red; }
+
+/* line 5, ./dev/_scripts/shared/_button.scss */
+my-button {
+  display: block; }

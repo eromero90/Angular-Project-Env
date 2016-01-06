@@ -1,0 +1,38 @@
+{
+  "name": "angularproject",
+  "version": "0.0.1",
+  "description": "Development enviroment for angular projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Edison Romero",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlhint": "^0.3.0",
+    "gulp-htmlmin": "^1.1.4",
+    "gulp-inject": "^2.2.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1",
+    "gulp-watch": "^4.3.5",
+    "jshint-stylish": "^2.0.1",
+    "main-bower-files": "^2.9.0",
+    "node-bourbon": "^4.2.3"
+  },
+  "scripts":{
+    "postinstall":"bower install"
+  }
+}

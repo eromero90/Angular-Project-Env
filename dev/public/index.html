@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular and gulp project</title>
+
+	<!-- bowercss:css -->
+	<!-- endinject -->
+	<!-- stylesheets:css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endinject -->
+</head>
+<body ng-app="main">
+	<h1>Angular and Gulp project</h1>
+	<div ng-controller="start as s">
+		<div>{{s.text}}</div>
+		<my-button></my-button>
+		<img src="assets/imgs/angularIcon.png" alt="Angular"/>
+	</div>
+
+	<!-- bowerjs:js -->
+	<script src="js/vendors/angular.js"></script>
+	<!-- endinject -->
+	<!-- scripts:js -->
+	<script src="js/app.js"></script>
+	<script src="js/shared/buttonDirective.js"></script>
+	<!-- endinject -->
+</body>
+</html>
